@@ -1,0 +1,163 @@
+
+.boton2 {
+    display: inline-block;
+    position: fixed;
+    top: 27px;
+    right: 44px;
+    z-index: 1050;
+    padding: 5px 33px;
+    background-color: rgb(0, 123, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+  
+  /* Estilo adicional para el hover (opcional) */
+  .boton2:hover {
+    background-color: #0056b3; /* Cambia el color al pasar el cursor */
+  }
+
+  .saldo-texto {
+    color: #e3dddd;
+  }
+  
+  .saldo-valor {
+    color: white; /* Color blanco para el valor de saldo */
+    margin: 0px 5px;
+  }
+  
+  
+ .miModal .modal-dialog {
+    max-width: 80% !important; /* Limita el ancho máximo al 80% */
+    width: 80%; /* Asegura que ocupe ese ancho */
+    
+}
+
+  .miModal {
+    /* Estilos para el modal */
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+  }
+
+.miModal .botonCerrar{
+/*   background: white;
+  color: white; */
+  z-index: 100;
+  position: absolute;
+    right: 21px;
+    /* color: white !important; */
+}
+
+.miModal .modal-content{
+  /* background-color: rgba(0, 0, 0, 0.5); */
+/*   background: url('https://img.pikbest.com/backgrounds/20220119/film-festival-black-style-background_6234454.jpg!w700wp');
+ */  
+ background: black;
+ background-size: cover;
+  z-index: 80;
+  opacity: 1;
+}
+
+/* MODAL HEADER */
+
+.miModal .modalHeader ul{
+  display: flex;
+  flex-wrap: wrap; /* Esto permite que las categorías se ajusten a varias filas si es necesario */
+  padding: 0;
+  justify-content: center; /* Centra las categorías */
+}
+
+.miModal .modalHeader ul li {
+  margin: 4px;
+  list-style: none;
+  font-size: medium;
+  cursor: pointer;
+  color: grey;
+  flex: 1 0 120px; /* Hace que cada categoría tenga un ancho mínimo pero se ajuste según el espacio disponible */
+}
+
+.miModal .modalHeader ul .active{
+  color: white;
+}
+
+
+/* MODAL BODY */
+
+.miModal .modalBody h3{
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.miModal .modalBody .botones{
+  text-align: center;
+}
+
+.miModal .modalBody .botones button{
+  padding: 4px 18px;
+  margin: 4px 3px;
+  font-weight: 400;
+}
+
+.miModal .modalBody .botones .depositar{
+  background-color: #0b459b;
+}
+
+.miModal .modalBody .botones .depositar:hover{
+  background-color: #062b63;
+}
+
+.miModal .modalBody .botones .retirar:hover{
+  background-color: #9b7607;
+}
+
+/* MODAL FOOTER */
+
+.modalFooter #texto{
+  text-align: center;
+}
+
+.modalFooter .textoContainer {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  height: 100%;           /* Asegura que ocupe toda la altura del contenedor */
+  width: 100%;
+}
+
+
+.modalFooter .textoDeposito{
+  opacity: 1;
+  font-weight: 600;
+  text-align: center;
+  animation: textoAnimacion 3s linear;
+ }
+
+.modalFooter .textoNone{
+  display: none;
+}
+
+@keyframes textoAnimacion{
+  0%{
+      opacity: 0.0;
+  }
+  50%{
+    opacity: 1;
+    font-weight: 600;
+  }
+  100%{
+    opacity: 0.0;
+  }
+}
+
+
+.modalFooter .botones .confirmar{
+  background-color: #0b459b;
+  margin: 10px;
+}
+
+
+.labelContenedor label{
+  font-weight: 500;
+}
+
+

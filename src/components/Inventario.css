@@ -1,0 +1,82 @@
+.peliModal img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.peliModal{
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+}
+
+.headerModal .titulo {
+    width: 84%;
+    font-family: monospace;
+}
+
+.headerModal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.peliModal .headerPosta{
+    padding: 22px;
+}
+
+.peliModal .fecha{
+    position: absolute;
+    right: 11px;
+    top: 10px;
+    font-size: xx-large;
+} 
+
+.peliModal .modal-content{
+    background: #161616;
+    background-size: cover;
+    z-index: 80;
+    opacity: 1;
+}
+
+.peliModal .contenedorTexto{
+    width: 96%;
+    margin: auto;
+    margin-top: 11px;
+    margin-bottom: 4px;
+}
+
+.peliModal .botonCerrar{
+    
+        position: absolute;
+        top: 49px;
+        right: 23px;
+}
+
+.inventarioBtn{
+    font-weight: 500;
+}
+
+.iconoBasura{
+    position: absolute;
+    right: 23px;
+    bottom: 21px;
+    font-size: 23px;
+    color: #797979;
+    cursor: pointer;
+}
+
+.iconoBasura:hover{
+    transform: scale(1.2);
+    transform: rotate(360deg) scale(1.2);
+}
+
+h4{
+    color: white;
+    margin-top: 100px;
+}
+
+.menu-abierto h4 {
+    display: none;
+}
+
+/* Media Query para dispositivos móviles */
+

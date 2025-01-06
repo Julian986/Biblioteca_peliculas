@@ -1,0 +1,35 @@
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0; /* Elimina los márgenes */
+  padding: 0; /* Elimina el padding */
+  background-color: #161616;
+  min-height: 100%;
+  overflow-x: hidden; /* Elimina scroll horizontal */
+}
+
+#root{
+  background-color: #161616;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #161616; /* Cambia por el color o imagen que desees */
+  min-height: 100vh; /* Asegura que el fondo cubra toda la pantalla */
+}
+
+.boton{
+  position: absolute;
+  background-color: #212529;
+  z-index: 1050;
+  top: 8px;
+  left: 214px;
+  font-size: 10px;
+  border-radius: 11px;
+}
+
+.boton i {
+  font-size: 1.5rem; /* Tamaño del ícono */
+  color: white;      /* Color del ícono */
+}

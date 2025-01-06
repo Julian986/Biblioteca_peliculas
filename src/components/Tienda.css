@@ -1,0 +1,101 @@
+
+.peliModal .modal-dialog {
+ 
+}
+
+.peliModal img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.peliModal{
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+}
+
+.peliModal .headerPosta{
+    padding: 22px;
+}
+
+.peliModal .fecha{
+    position: absolute;
+    right: 65px;
+    top: 10px;
+    font-size: xx-large;
+    font-family: monospace;
+}
+.peliModal .modal-content{
+    background: #161616;
+    background-size: cover;
+    z-index: 80;
+    opacity: 1;
+}
+
+.peliModal .contenedorTexto{
+    width: 96%;
+    margin: auto;
+    margin-top: 11px;
+}
+
+.peliBoton{
+    font-weight: 400;
+    padding: 4px 19px;
+    margin: 5px 4px;
+}
+
+.miToast{
+    position: fixed;
+    top: 2px;
+    right: 10px
+}
+
+.contenedorHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerModal{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.headerModal .titulo{
+    width: 90%;
+    font-family: monospace;
+}
+
+.contenedorHeader .peliTitulo{
+    margin-bottom: 10px;
+    color: #c7b8b8;
+/*     width: 78%; */
+}
+
+.contenedorHeader .precio{
+    font-size: 24px;
+}
+
+.peliDes{
+    color: #c7b8b8;
+
+}
+
+.videoModal{
+    width: 100%;
+}
+
+.contenedorHeader .textoo{
+    font-weight: 600;
+    font-size: 22px;
+    color: #c7b8b8;
+    font-family: monospace;
+}
+
+.miModalBody p{
+    color: #c7b8b8;
+}
+
+.miImagen{
+    height: 80vh;
+}
