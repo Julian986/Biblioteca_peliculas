@@ -43,6 +43,7 @@ const Tienda = ({peliculasC}: TiendaProps) => {
   
   // Lista de películas desde el JSON
   const peliculas = peliculasData;
+  console.log(peliculas);
 
   // Configuración para el modal
   const [showModal, setShowModal] = useState(false);
