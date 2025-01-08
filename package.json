@@ -1,13 +1,17 @@
 {
   "name": "biblioteca-peliculas",
   "private": true,
+  "homepage": "https://Julian986.github.io/Biblioteca_peliculas",
+
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
