@@ -1,5 +1,5 @@
-import React, { useContext, useState } from "react";
-import { Modal, Button, CloseButton } from "react-bootstrap";
+import React, { useState } from "react";
+import { Modal, CloseButton } from "react-bootstrap";
 import './Boton.css';
 import { useSaldo } from "../context/SaldoContext";
 import { useCategoria } from "../context/CategoriaContext";

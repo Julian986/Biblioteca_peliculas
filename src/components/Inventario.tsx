@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Card, Button, Row, Col, Modal, CloseButton } from "react-bootstrap";
 import "./Inventario.css";
 import { useInventario } from "../context/InventarioContext";
@@ -22,7 +22,9 @@ interface TiendaProps{
 
 const Inventario = ({peliculasC}: TiendaProps) => {
   // Estado para saber si el menú está abierto
-  const [menuAbierto, setMenuAbierto] = useState(false);
+  const [menuAbierto] = useState(false);
+
+  console.log(peliculasC);
 
   // Consumiendo el contexto
   const { inventario, eliminarDelInventario } = useInventario();

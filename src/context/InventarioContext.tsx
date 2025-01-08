@@ -1,5 +1,5 @@
 import { createContext, ReactNode, useContext, useState } from "react";
-import { useCategoria } from "./CategoriaContext";
+//import { useCategoria } from "./CategoriaContext";
 
 
 type Pelicula = {

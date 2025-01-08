@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Card, Button, Row, Col, Modal, Toast, ToastContainer, CloseButton } from "react-bootstrap";
 import './Tienda.css';
 import { useInventario } from "../context/InventarioContext";
@@ -26,6 +26,8 @@ interface TiendaProps{
 
 // Componente Tienda
 const Tienda = ({peliculasC}: TiendaProps) => {
+
+  console.log(peliculasC)
 
   /* FILTRAR PELICULAS POR CATEGORIA */
   const{categoria} = useCategoria();

@@ -1,7 +1,6 @@
-import React from "react"
 import { Toast, ToastContainer } from "react-bootstrap"
 
-export const MiToast = ({show, onClose, message}: {show: boolean, onClose: () => void, message: string}) => {
+export const MiToast = ({message}: {show: boolean, onClose: () => void, message: string}) => {
     return(
         <ToastContainer>
             <Toast>
