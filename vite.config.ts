@@ -6,3 +6,5 @@ export default defineConfig({
   plugins: [react()],
   base: "https://Julian986.github.io/Biblioteca_peliculas"
 })
+
+
