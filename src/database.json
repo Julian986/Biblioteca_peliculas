@@ -7,7 +7,7 @@
     "precio": 320,
     "description": "Un grupo de exploradores viaja por un agujero de gusano en busca de un nuevo hogar.",
     "descriptionModal": "En un futuro distópico donde la Tierra se enfrenta a una crisis alimentaria y ambiental, el exingeniero y piloto Cooper se une a una misión interestelar que podría ser la última esperanza para la humanidad. Liderando un grupo de científicos, Cooper viaja a través de un agujero de gusano en busca de un planeta habitable, enfrentándose a desafíos que van más allá de la comprensión humana, incluyendo la relatividad del tiempo y las decisiones morales imposibles. Interstellar combina ciencia, emociones y sacrificio en una narrativa que explora la resistencia del espíritu humano y la conexión que trasciende las barreras del espacio y el tiempo.",
-    "icono": "./public/peliculasImagenes/20.jpg",
+    "icono": "https://res.cloudinary.com/dkdaofdcx/image/upload/v1736350666/20_aj57ns.jpg",
     "video": "https://www.youtube.com/embed/zSWdZVtXT7E?si=wKiUkEoNPSMxDyF3",
     "categoria": "Ciencia-ficcion"
   },
