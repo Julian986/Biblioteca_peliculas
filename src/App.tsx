@@ -23,7 +23,7 @@ const App = () => {
         {/* MENU */}
         <div style={{ display: "flex", height: "100%" }}>
           {/* Solo muestra el menú si está abierto */}
-          {isMenuOpen && <Menu />}
+          {isMenuOpen && <Menu toggleMenu={toggleMenu} />}
 
           {/* CONTENIDO PRINCIPAL */}
           <div
@@ -34,6 +34,8 @@ const App = () => {
               transition: "margin-left 0.3s ease-in-out", // Agrega una transición suave
             }}
           >
+
+            
             {/* Botón para abrir/cerrar el menú */}
             <button
               onClick={toggleMenu}

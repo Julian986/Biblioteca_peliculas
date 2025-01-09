@@ -4,7 +4,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import './Menu.css';
 import { Link, useLocation } from 'react-router-dom';
 
-const Menu = () => {
+const Menu = ({toggleMenu} : {toggleMenu: () => void}) => {
   const location = useLocation();
   const isActive = (path: string) => location.pathname === path;
 
@@ -57,14 +57,14 @@ const Menu = () => {
       </a>
       <hr />
       <ul className="nav nav-pills flex-column mb-auto" style={{ flexGrow: 1 }}>
-        <li className="nav-item">
+        <li className="nav-item" onClick={toggleMenu}>
           <Link to="/" className={`nav-link ${isActive("/") ? "active" : "text-white"} item`} aria-current="page">
             <i className="bi bi-shop-window"></i>
             Tienda
           </Link>
         </li>
 
-        <li>
+        <li onClick={toggleMenu}>
           <Link
             to="/inventario"
             className={`nav-link ${isActive("/inventario") ? "active" : "text-white"} item`}>
